@@ -1,0 +1,332 @@
+html,
+body {
+  font-family: "Archivo", sans-serif;
+  background-image: radial-gradient(circle, #000000 0%, #252525 100%);
+  /* width: 100%; */
+  background-position: 50% 0;
+}
+
+.nav-text {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav-text-sub {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+/* the following class name is a reference to
+   https://www.pcgamer.com/researchers-have-developed-a-very-big-disctm-that-can-store-up-to-200-terabytes-of-data-and-may-represent-a-return-to-optical-media-for-long-term-storage/ */
+.very-big-text {
+  color: white;
+  font-size: 16em;
+}
+
+.very-big-text-lite {
+  color: white;
+  font-size: 3.5em;
+}
+
+.scroll-color {
+  color: white;
+}
+
+.scroll-text::before {
+  content: "Scroll ";
+}
+
+.project-description {
+  line-height: 0.1em;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .scroll-text::before {
+    content: "Swipe ";
+  }
+
+  .scroll-text::after {
+    content: "";
+  }
+
+  .scroll-text {
+    font-size: 2em;
+    margin: 0em;
+  }
+
+  .justify-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10em;
+  }
+  .very-big-text {
+    font-size: 8em;
+  }
+  .very-big-text-lite {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .project-description {
+    line-height: 1.2em;
+  }
+
+  .portmachine-parent {
+    display: none;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  .covidcases-column-icon-last {
+    font-size: 0.8em;
+  }
+}
+
+.header-animation {
+  animation-name: header-anim-keyframe;
+  animation-duration: 1s;
+}
+
+@keyframes header-anim-keyframe {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .header-padding {
+    position: relative;
+    top: 2.5%;
+    bottom: 2.5%;
+  }
+  .scroll-down {
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .skills::after {
+    content: "";
+  }
+
+  .more-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .education-border {
+    border-right: 4px solid black;
+  }
+
+  .scrolling-thing-text::after {
+    content: "just click on any part of the text at the right.";
+  }
+}
+
+@media (min-width: 1921px) {
+  .justify-text {
+    height: 34em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media (max-width: 1920px) {
+  .justify-text {
+    height: 34em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+}
+
+.white-container {
+  border-radius: 1em;
+  background-color: white;
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.center-text-override {
+  text-align: center !important;
+}
+
+.skills-container a {
+  color: black;
+  text-decoration: underline !important;
+}
+
+.js-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.main-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.paywall {
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+
+.projects-container {
+  border: solid 0px white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.backend-language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.project-sub-description {
+  line-height: 1.5em;
+}
+
+.column-icon {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  padding: 16px;
+  width: 100%;
+}
+
+.covidcases-column-icon-first {
+  border-bottom-left-radius: 20px;
+}
+
+.covidcases-column-icon-last {
+  border-bottom-right-radius: 20px;
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black !important;
+}
+
+a i {
+  color: white;
+}
+
+.description-hyperlink a:link {
+  color: black !important;
+  text-decoration: underline;
+}
+
+button {
+  color: white;
+  background-color: black;
+  transition-duration: 0.2s;
+}
+button:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 0.2s;
+}
+
+@media (max-width: 1024px) {
+  .education-border {
+    border-right: 0px !important;
+  }
+
+  .project-description {
+    line-height: 1em;
+    color: black;
+  }
+}
+
+.portmachine {
+  color: black !important;
+}
+
+.portmachine-parent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 2em;
+}
+
+.scrolling-thing a {
+  color: black;
+}
+
+.scrolling-thing-parent {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro-padding {
+  padding-bottom: 20px;
+}
+
+nav.nav-item.nav-text-sub a,
+nav.nav-item.nav-text-sub a:visited,
+nav.nav-item.nav-text-sub a:link {
+  color: white !important;
+}
+
+.contact-me {
+  color: black;
+}
+
+.footer-margin {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer p a:link {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+.modal-color {
+  color: black !important;
+}
+
+.link-button {
+  text-decoration: underline;
+  box-shadow: none;
+  border: 0px;
+  background-color: #1e1e1e;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+  box-shadow: none;
+  border: 0px;
+  color: white;
+  background-color: #1e1e1e;
+}
