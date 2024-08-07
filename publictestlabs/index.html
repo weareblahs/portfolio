@@ -6,7 +6,15 @@
     <title>Public Test Labs</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body onload="play()">
+  <body
+    onload="play()"
+    style="
+      display: flex;
+      width: 100vw;
+      align-items: center;
+      justify-content: center;
+    "
+  >
     <div class="ball">No content</div>
 
     <audio loop="true">
@@ -23,7 +31,9 @@
         <a href="../">Back to home page</a>. This page is supposed to have a
         "royalty free jazz background music" looping at the background, but just
         in case if your browser doesn't start playing it for you, then go back
-        to the home page and click on the test labs link on top again.
+        to the home page and click on the test labs link on top again. Or, if
+        you really, really wanted a shortcut,
+        <button onclick="play()">click here</button>
         <a href="https://www.youtube.com/watch?v=tG-3DyniRNk">Music credit</a>
       </h6>
     </footer>
