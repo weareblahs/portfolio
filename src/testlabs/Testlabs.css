@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  --width: "100vw";
+  --height: "100vh";
+}
+
+.ball {
+  width: var(--width);
+  height: var(--height);
+  /* background: url("testlabs.png");
+    background-repeat: no-repeat; */
+  background-size: 100%;
+  position: absolute;
+  animation: toRight linear 4s infinite alternate,
+    bounce linear 17s infinite alternate;
+  color: white;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  48% {
+  }
+  50% {
+    top: calc(100% - var(--height));
+  }
+  52% {
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes toRight {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: calc(100% - var(--width));
+  }
+}
+
+footer {
+  position: relative;
+  top: 12.8em;
+  justify-content: center;
+  color: white;
+  font-weight: normal;
+  display: flex;
+}
+
+footer a:link {
+  text-decoration: underline;
+  color: white;
+}

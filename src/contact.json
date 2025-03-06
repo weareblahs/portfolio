@@ -15,6 +15,11 @@
     "link": "https://twitter.com/ThisIsTYX"
   },
   {
+    "type": "email",
+    "icon": "fa fa-threads",
+    "link": "https://threads.net/weareblahs"
+  },
+  {
     "type": "social",
     "icon": "fa-brands fa-instagram",
     "link": "https://instagram.com/weareblahs"
