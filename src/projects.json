@@ -1,0 +1,70 @@
+[
+  {
+    "type": "template",
+    "name": "Project name",
+    "description": "Project description",
+    "image": "Project image URL",
+    "ghLink": "GitHub source link",
+    "web": true,
+    "webURL": "Project web URL (if web is set to true)"
+  },
+
+  {
+    "type": "project",
+    "name": "ikeatoys",
+    "description": "A simple tracker that tracks stock for some IKEA toys via the official IKEA Malaysia website. \n\n\nPreviously known as BLÅHAJ? Not affliated with IKEA.",
+    "image": "/screenshots/ikeatoys.png",
+    "ghLink": "https://github.com/weareblahs/ikeatoys",
+    "web": true,
+    "webURL": "https://weareblahs.github.io/ikeatoys",
+    "hostedOn": "githubPages"
+  },
+  {
+    "type": "project",
+    "name": "bus?",
+    "description": "Experimental bus tracking app for rapidPenang, rapidKL and rapidPahang via Malaysia's Open Government API.",
+    "image": "/screenshots/bqm.png",
+    "ghLink": "https://github.com/weareblahs/bus",
+    "web": true,
+    "webURL": "https://b.ntyx.dev",
+    "hostedOn": "vercel"
+  },
+  {
+    "type": "project",
+    "name": "Leetvigator",
+    "image": "/screenshots/leetvigator.png",
+    "description": "React-based Leetcode browser by question number, with a dedicated button to select a random question.",
+    "ghLink": "https://github.com/weareblahs/leetvigator",
+    "web": true,
+    "webURL": "https://leetvigator.ntyx.dev",
+    "hostedOn": "vercel"
+  },
+  {
+    "type": "project",
+    "name": "covidcases",
+    "image": "/screenshots/covidcases.png",
+    "description": "A simple, no-nonsense page that displays daily COVID-19 cases in Malaysia sourced from an API via the Malaysia Ministry of Health GitHub data. Also on Twitter/X and Mastodon.",
+    "ghLink": "https://github.com/weareblahs/leetvigator",
+    "web": true,
+    "webURL": "https://weareblahs.github.io/covidcases",
+    "hostedOn": "githubPages"
+  },
+  {
+    "type": "project",
+    "name": "Untitled Music Streaming Thing",
+    "image": "/screenshots/umst.png",
+    "description": "A locally-hosted React web app that plays music from Spotify with a Spotify Premium account, as well as locally uploaded files - which saves user info via a local MongoDB database.",
+    "ghLink": "https://github.com/weareblahs/leetvigator",
+    "web": false
+  },
+  {
+    "type": "project",
+    "name": "The weird world of Physical Home Entertainment",
+    "image": "/screenshots/twwophe.png",
+    "description": "An interactive website about disc-based home entertainment in Malaysia, both 'pasar malam' and original ones, built with Bootstrap and GSAP. Part of a school project.",
+    "ghLink": "https://github.com/weareblahs/WhyShouldWeBuyTheGoldDisc",
+    "web": true,
+    "webURL": "https://whygmyzgdjdebsklbgdzd.netlify.app/",
+    "hostedOn": "netlify"
+  }
+]

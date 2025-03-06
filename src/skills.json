@@ -1,0 +1,87 @@
+[
+  {
+    "type": "template",
+    "name": "Skill name",
+    "icon": "devicon ID",
+    "description": "Skill description",
+    "inProgress": false
+  },
+
+  {
+    "type": "skill",
+    "name": "HTML",
+    "icon": "html5",
+    "description": "",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "name": "Bootstrap",
+    "icon": "bootstrap",
+    "description": "",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "javascript",
+    "name": "JavaScript",
+    "description": "including node.js server-side programming",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "react",
+    "name": "React",
+    "description": "JavaScript React only, with ability to integrate with other existing JavaScript plugins and React-based frameworks.",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "express",
+    "name": "Express.js",
+    "description": "for API server creation, usually used with a MongoDB database",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "php",
+    "name": "PHP",
+    "description": "Used with MySQL. One of the projects I did with PHP is a movie ticketing system for a school project.",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "mysql",
+    "name": "MySQL",
+    "description": "Used in conjunction with PHP projects for database.",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "mongodb",
+    "name": "MongoDB",
+    "description": "Used along with Mongoose and Express.js for APIs",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "mongoose",
+    "name": "Mongoose",
+    "description": "Used along with Mongoose and Express.js for APIs",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "kotlin",
+    "name": "Kotlin",
+    "description": "Mostly used with native Android coding",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "firebase",
+    "name": "Firebase",
+    "description": "used with Android (via Kotlin)",
+    "inProgress": true
+  }
+]

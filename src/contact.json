@@ -1,0 +1,37 @@
+[
+  {
+    "type": "template",
+    "icon": "Font Awesome icon",
+    "link": "URL"
+  },
+  {
+    "type": "social",
+    "icon": "fa-brands fa-bluesky",
+    "link": "https://bsky.app/profile/ntyx.dev"
+  },
+  {
+    "type": "social",
+    "icon": "fa-brands fa-twitter",
+    "link": "https://twitter.com/ThisIsTYX"
+  },
+  {
+    "type": "social",
+    "icon": "fa-brands fa-instagram",
+    "link": "https://instagram.com/weareblahs"
+  },
+  {
+    "type": "social",
+    "icon": "fa-brands fa-linkedin",
+    "link": "https://www.linkedin.com/in/tan-yu-xuan-2b450329b/"
+  },
+  {
+    "type": "social",
+    "icon": "fa-brands fa-youtube",
+    "link": "https://youtube.com/@OogaChakaOogaOoga"
+  },
+  {
+    "type": "email",
+    "icon": "fa fa-envelope",
+    "link": "mailto:tanyuxuan2005+web@gmail.com"
+  }
+]
