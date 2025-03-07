@@ -1,5 +1,5 @@
 import ScrollContainer from "react-indiana-drag-scroll";
-import skills from "/src/skills.json";
+import skills from "/src/data/home/skills.json";
 export const Skills = () => {
   const skillsList = skills.filter((p) => p.type != "template");
   console.log(skillsList);

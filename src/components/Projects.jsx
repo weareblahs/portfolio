@@ -1,7 +1,6 @@
-import projects from "/src/projects.json";
+import projects from "/src/data/home/projects.json";
 import { useRef } from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
-import { useDraggable } from "react-use-draggable-scroll";
 export const Projects = () => {
   const projectList = projects.filter((p) => p.type != "template");
   console.log(projectList);
@@ -43,7 +42,10 @@ export const Projects = () => {
                             </button>
                           </div>
                           <div>
-                            <button className="bg-black text-white w-[100%] p-3 text-sm rounded-br-xl hover:bg-gray-800 transition ease-in-out">
+                            <button
+                              className="bg-black text-white w-[100%] p-3 text-sm rounded-br-xl hover:bg-gray-800 transition ease-in-out"
+                              onClick={() => (window.location.href = p.ghLink)}
+                            >
                               <i className="devicon-github-plain pe-2"></i>
                               Source code
                             </button>
@@ -52,7 +54,10 @@ export const Projects = () => {
                       ) : (
                         <>
                           <div>
-                            <button className="bg-black text-white w-[100%] p-3 text-sm rounded-br-xl rounded-bl-xl hover:bg-gray-800 transition ease-in-out">
+                            <button
+                              className="bg-black text-white w-[100%] p-3 text-sm rounded-br-xl rounded-bl-xl hover:bg-gray-800 transition ease-in-out"
+                              onClick={() => (window.location.href = p.ghLink)}
+                            >
                               <i className="devicon-github-plain pe-2"></i>
                               Source code
                             </button>

@@ -1,4 +1,4 @@
-import contact from "../contact.json";
+import contact from "../data/home/contact.json";
 
 export const Contact = () => {
   const contacts = contact.filter((c) => c.type != "template");
