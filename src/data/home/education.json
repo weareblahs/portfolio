@@ -1,0 +1,30 @@
+[
+  {
+    "type": "template",
+    "name": "School / institution name",
+    "period": "Year (from - to, with format of month followed by year)",
+    "course": "Course on institution (if any. if no, leave it blank)"
+  },
+  {
+    "type": "current",
+    "name": "Forward College",
+    "period": "March 2024 - February 2026",
+    "course": "NitroDegree in Applied Software Engineering"
+  },
+  {
+    "type": "former",
+    "name": "Jit Sin Independent High School",
+    "period": "January 2018 - December 2023",
+    "course": ""
+  },
+  {
+    "type": "former",
+    "name": "SJK (C) Peng Bin",
+    "period": "January 2012 - December 2017",
+    "course": ""
+  },
+  {
+    "type": "comment",
+    "comment": "Once again, as per \"that tradition\", kindergarten not included in this part. The thing is that it's confusing - i went to 2 kindergartens that time."
+  }
+]

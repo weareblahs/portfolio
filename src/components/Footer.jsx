@@ -18,6 +18,10 @@ export const Footer = () => {
         . Made with{" "}
         <a href="https://tailwindcss.com/" className="underline">
           Tailwind CSS
+        </a>{" "}
+        and{" "}
+        <a href="https://react.dev/" className="underline">
+          React (via Vite)
         </a>
         . Site hosted on{" "}
         <a href="https://vercel.com/" className="underline">

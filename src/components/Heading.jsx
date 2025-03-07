@@ -26,15 +26,15 @@ export const Heading = () => {
             <h2 className="text-4xl font-bold">
               Don't know what to see first?
             </h2>
-            <h6 class="scrolling-thing-text">
+            <h6 class="text-xl">
               Let the Scrolling Thing™ decide it for you! This thing will scroll
               as fast as it can, just click anywhere at the area below. Refresh
               if you didn't see stuff below.
             </h6>
           </div>
-          <div className="text-3xl">
+          <div className="text-4xl">
             <div>
-              <marquee scrollamount="80">
+              <marquee scrollamount="100">
                 <h2>
                   <a href="https://github.com/weareblahs">
                     View my GitHub account
