@@ -2,7 +2,7 @@ export const Footer = () => {
   let currentDate = new Date();
   return (
     <>
-      <div className="mt-2 mb-2 text-center">
+      <div className="mt-2 mb-2 text-center text-lg">
         &copy; {currentDate.getFullYear()}. All rights reserved. For project /
         repository license, please check LICENSE file in every project (hint:
         most of them are under MIT License).
