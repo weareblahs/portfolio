@@ -28,7 +28,7 @@ export const Education = () => {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center text-sm md:text-xl lg:text-2xl italic pt-4">
         Once again, as per "that tradition", kindergarten not included in this
         part. The thing is that it's confusing - i went to 2 kindergartens that
         time.

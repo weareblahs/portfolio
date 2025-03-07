@@ -10,7 +10,8 @@ export const Home = () => {
     <div
       className="
     text-black bg-white 
-    dark:text-white dark:bg-black"
+    dark:text-white dark:bg-black
+    font"
       style={{ height: "100%" }}
     >
       <div

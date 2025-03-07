@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+.font {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .paywall,
