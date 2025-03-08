@@ -6,7 +6,7 @@ export const Heading = () => {
       }}
       className="flex"
     >
-      <div className="block align-middle mt-4 lg:mt-0">
+      <div className="block align-middle mt-3 lg:mt-0">
         {/* introduction start */}
         <div className="">
           <h1 className="text-6xl lg:text-9xl font-bold">Hi?</h1>
