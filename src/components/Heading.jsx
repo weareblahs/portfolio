@@ -9,7 +9,7 @@ export const Heading = () => {
       <div className="block align-middle mt-2 lg:mt-0">
         {/* introduction start */}
         <div className="">
-          <h1 className="text-6xl lg:text-9xl font-bold">Hi?</h1>
+          <h1 className="text-6xl lg:text-9xl font-bold">Uhh, Hi?</h1>
           <h1 className="text-2xl md:text-5xl lg:text-5xl xl:text-8xl 2xl:text-6xl">
             I'm Tan. A guy who is still a software engineering student that has
             an interest of coding and other technology-related stuff.
