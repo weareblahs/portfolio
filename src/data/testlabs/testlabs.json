@@ -8,5 +8,6 @@
     "type": "testlabs",
     "name": "Untitled Blogging Thing",
     "url": "https://untitled-blog-thing.vercel.app/"
-  }
+  },
+  { "type": "testlabs", "name": "bus? v2", "url": "https://bqmv2.vercel.app" }
 ]
