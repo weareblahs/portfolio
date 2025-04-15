@@ -12,6 +12,7 @@ export const Content = ({ content }) => {
             onClick={() => (window.location.href = c.url)}
           >
             {c.name}
+            <br />
           </button>
         );
       })}
