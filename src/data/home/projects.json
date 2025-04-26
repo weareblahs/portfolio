@@ -8,7 +8,16 @@
     "web": true,
     "webURL": "Project web URL (if web is set to true)"
   },
-
+  {
+    "type": "project",
+    "name": "Penang District Finder",
+    "image": "/screenshots/penang.png",
+    "description": "Web-based finder for districts in Penang, Malaysia based on geolocation data (mobile only) or given (static) location name from the database. Multilingual options are used with a custom JSON-based translation system.",
+    "ghLink": "https://github.com/weareblahs/PenangDistrictFinder",
+    "web": true,
+    "webURL": "https://penang.ntyx.dev/",
+    "hostedOn": "vercel"
+  },
   {
     "type": "project",
     "name": "ikeatoys",
