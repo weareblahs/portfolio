@@ -10,6 +10,16 @@
   },
   {
     "type": "project",
+    "name": "bus?",
+    "description": "Experimental bus tracking app for rapidPenang, rapidKL and rapidPahang via Malaysia's Open Government API.",
+    "image": "/screenshots/bqm.png",
+    "ghLink": "https://github.com/weareblahs/bus",
+    "web": true,
+    "webURL": "https://b.ntyx.dev",
+    "hostedOn": "vercel"
+  },
+  {
+    "type": "project",
     "name": "Penang District Finder",
     "image": "/screenshots/penang.png",
     "description": "Web-based finder for districts in Penang, Malaysia based on geolocation data (mobile only) or given (static) location name from the database. Multilingual options are used with a custom JSON-based translation system.",
@@ -28,16 +38,7 @@
     "webURL": "https://weareblahs.github.io/ikeatoys",
     "hostedOn": "githubPages"
   },
-  {
-    "type": "project",
-    "name": "bus?",
-    "description": "Experimental bus tracking app for rapidPenang, rapidKL and rapidPahang via Malaysia's Open Government API.",
-    "image": "/screenshots/bqm.png",
-    "ghLink": "https://github.com/weareblahs/bus",
-    "web": true,
-    "webURL": "https://b.ntyx.dev",
-    "hostedOn": "vercel"
-  },
+
   {
     "type": "project",
     "name": "Leetvigator",
