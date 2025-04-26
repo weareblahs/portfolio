@@ -71,7 +71,7 @@ export const Projects = () => {
             );
           })}
         </ScrollContainer>
-        <div className="text-center text-lg md:text-2xl lg:text-2xl italic">
+        <div className="text-center text-sm md:text-base lg:text-base italic">
           <h1>
             Other unlisted ones include{" "}
             <i
