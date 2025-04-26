@@ -13,7 +13,7 @@ export const Contact = () => {
             <div className="ms-2 me-2">
               <div className="w-[100%] text-white light:text-black p-4">
                 <button
-                  className="text-center flex "
+                  className="text-center flex cursor-pointer"
                   onClick={() => (window.location.href = c.link)}
                 >
                   <i className={`${c.icon} text-4xl`}></i>
