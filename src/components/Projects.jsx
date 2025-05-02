@@ -24,11 +24,8 @@ export const Projects = () => {
                     <div>
                       {p.web ? (
                         <div className="grid grid-cols-2">
-                          <div>
-                            <button
-                              className="bg-blue-500 text-white w-[100%] p-3 text-sm rounded-bl-xl hover:bg-blue-800 transition ease-in-out"
-                              onClick={() => (window.location.href = p.webURL)}
-                            >
+                          <a href={p.webURL}>
+                            <button className="bg-blue-500 text-white w-[100%] p-3 text-sm rounded-bl-xl hover:bg-blue-800 transition ease-in-out cursor-pointer">
                               {p.hostedOn == "githubPages" ? (
                                 <i className="devicon-github-plain pe-2"></i>
                               ) : null}
@@ -40,16 +37,13 @@ export const Projects = () => {
                               ) : null}
                               View project
                             </button>
-                          </div>
-                          <div>
-                            <button
-                              className="bg-black text-white w-[100%] p-3 text-sm rounded-br-xl hover:bg-gray-800 transition ease-in-out"
-                              onClick={() => (window.location.href = p.ghLink)}
-                            >
+                          </a>
+                          <a href={p.ghLink}>
+                            <button className="bg-black text-white w-[100%] p-3 text-sm rounded-br-xl hover:bg-gray-800 transition ease-in-out">
                               <i className="devicon-github-plain pe-2"></i>
                               Source code
                             </button>
-                          </div>
+                          </a>
                         </div>
                       ) : (
                         <>
