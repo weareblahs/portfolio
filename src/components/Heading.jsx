@@ -50,7 +50,7 @@ export const Heading = () => {
                   <span className="ms-2 me-2">|</span>
                   <a href="#skills">View my coding skills and how I use it</a>
                   <span className="ms-2 me-2">|</span>
-                  <a href="publictestlabs">
+                  <a href="testlabs">
                     You won't know what project I'm doing right now
                   </a>
                   <span className="ms-2 me-2">|</span>
