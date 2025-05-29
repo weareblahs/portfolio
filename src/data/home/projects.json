@@ -20,6 +20,16 @@
   },
   {
     "type": "project",
+    "name": "bus? (mobile version)",
+    "description": "A mobile version of bus? written in Flutter, with additional Waze-like feature to report traffic information through the app.",
+    "image": "/screenshots/bqm_mob.png",
+    "ghLink": "https://github.com/weareblahs/bus_mob",
+    "web": false,
+    "webURL": "",
+    "hostedOn": ""
+  },
+  {
+    "type": "project",
     "name": "Penang District Finder",
     "image": "/screenshots/penang.png",
     "description": "Web-based finder for districts in Penang, Malaysia based on geolocation data (mobile only) or given (static) location name from the database. Multilingual options are used with a custom JSON-based translation system.",

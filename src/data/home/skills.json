@@ -82,6 +82,20 @@
     "icon": "firebase",
     "name": "Firebase",
     "description": "used with Android (via Kotlin)",
-    "inProgress": true
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "dart",
+    "name": "Dart",
+    "description": "Used with Flutter",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "flutter",
+    "name": "Flutter",
+    "description": "for developing apps",
+    "inProgress": false
   }
 ]
