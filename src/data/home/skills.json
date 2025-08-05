@@ -95,7 +95,14 @@
     "type": "skill",
     "icon": "flutter",
     "name": "Flutter",
-    "description": "for developing apps",
+    "description": "Android native app development",
+    "inProgress": false
+  },
+  {
+    "type": "skill",
+    "icon": "python",
+    "name": "Python",
+    "description": "Used for data analytics (with Pandas)",
     "inProgress": false
   }
 ]
