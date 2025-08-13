@@ -20,6 +20,16 @@
   },
   {
     "type": "project",
+    "name": "Guess that Random Wikipedia article",
+    "description": "Web-based game utilizing Wikipedia:Random and Wikipedia's API, which users need to guess the related Wikipedia article by an extract or an image.",
+    "image": "/screenshots/wiki.png",
+    "ghLink": "https://github.com/weareblahs/wiki",
+    "web": true,
+    "webURL": "https://wikiguess.ntyx.dev",
+    "hostedOn": "vercel"
+  },
+  {
+    "type": "project",
     "name": "bus? (mobile version)",
     "description": "A mobile version of bus? written in Flutter, with additional Waze-like feature to report traffic information through the app.",
     "image": "/screenshots/bqm_mob.png",
