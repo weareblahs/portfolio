@@ -24,8 +24,8 @@ export const Footer = () => {
           React (via Vite)
         </a>
         . Site hosted on{" "}
-        <a href="https://vercel.com/" className="underline">
-          Vercel
+        <a href="https://pages.cloudflare.com/" className="underline">
+          Cloudflare Pages
         </a>
         . Registered on{" "}
         <a href="https://porkbun.com/" className="underline">
