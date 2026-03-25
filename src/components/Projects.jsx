@@ -3,11 +3,13 @@ import { useRef } from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
 export const Projects = () => {
   const projectList = projects.filter((p) => p.type != "template");
-  console.log(projectList);
+
   return (
     <>
       <div className="block md:flex lg:flex">
-        <h1 className="text-3xl font-bold mb-3 lg:text-6xl">Projects</h1>
+        <h1 className="text-3xl font-bold mb-3 lg:text-6xl">
+          (personal) Projects
+        </h1>
         <h1 className="hidden text-3xl lg:block md:block italic ms-auto mt-auto mb-auto"></h1>
       </div>
       <div className="p-0 lg:p-4">

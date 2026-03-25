@@ -14,6 +14,12 @@ export const Heading = () => {
             I'm Tan. A guy who is still a software engineering student that has
             an interest of coding and other technology-related stuff.
           </h1>
+
+          {/* update info */}
+          <h1>
+            <b>See this?</b> Website update in progress. Most stuff here is
+            readable and accessible.
+          </h1>
         </div>
         {/* introduction end */}
 
